@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #355C7D;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.container{
+  background-color: #6C5B7B;
+  height: 65vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 520px;
+  border: 2.5px solid #000;
+  border-radius: 80px 0px 80px 0px;
+  box-shadow: 0px 0px 30px #000;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 30px 28px;
+}
+
+h1{
+  margin: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+}
+
+.container p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.container input {
+  width: 100%;
+  margin-bottom: 21px;
+}
+
+.container input[name="nome"], input[name="endereco"],input[name="email"], input[name="dataNascimento"]{
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+}
+
+.container input[type="submit"] {
+  border: none;
+  outline: none;
+  color: #000;
+  height: 35px;
+  background: #fff;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.container input[type="submit"]:hover {
+  cursor: pointer;
+  background: #355C7D;
+  transition: 0.2s;
+}
+
+footer{
+  margin-top: 600px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 580px;
+}
